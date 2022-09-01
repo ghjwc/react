@@ -10,11 +10,11 @@ import MarkdownEditor from './Remarkable';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <Fragment>
-    {/* <App /> */}
-    <HelloMessage name="홍길동" age="28" />
+    <App />
+    {/* <HelloMessage name="홍길동" age="28" />
     <Timer />
     <TodoApp />
-    <MarkdownEditor />
+    <MarkdownEditor /> */}
   </Fragment>
   
 );
