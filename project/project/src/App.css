@@ -15,3 +15,25 @@ body {
 li {
   list-style: none;
 }
+
+header:first-child {
+  background-color: bisque;
+}
+
+header:first-child > ul {
+  display: flex;
+  background-color: lightyellow;
+}
+
+header:first-child > ul > li {
+  margin-right: 1rem;
+  background-color: lightgreen;
+}
+
+header:first-child > ul > li:last-child {
+  margin-right: 0;
+}
+
+header:nth-child(2) {
+  background-color: aqua;
+}
