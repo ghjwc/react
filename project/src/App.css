@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+header:first-child {
+  background-color: bisque;
+}
+
+header:first-child > ul {
+  display: flex;
+  background-color: lightyellow;
+}
+
+header:first-child > ul > li {
+  margin-right: 1rem;
+  background-color: lightgreen;
+}
+
+header:first-child > ul > li:last-child {
+  margin-right: 0;
+}
+
+header:nth-child(2) {
+  background-color: aqua;
+}
