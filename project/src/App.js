@@ -16,8 +16,8 @@ function Nav(props) {
   }
 
   return <header>
+  {<div id="headerLogo">{props.logo}</div>}
   <ul>
-    {lis.unshift(<div key={}></div>)}
     {lis}
   </ul>
 </header>
