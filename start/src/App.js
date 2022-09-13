@@ -117,6 +117,7 @@ class App extends Component {
         <Subject onClick={function() {
           this.setState({mode: 'welcome'})
         }.bind(this)} title="WEB" sub="World Wide Web"></Subject>
+
         <TOC onSelect={function(id) {
           console.log('App', id);
           // this.state.selected_content_id의 값을 id로 바꾼다.
@@ -125,6 +126,7 @@ class App extends Component {
             mode: 'read'
           });
         }.bind(this)} data={this.state.contents}></TOC>
+        
         {this.getControlComponent()}
         {this.getContentComponent()}
       </div>
