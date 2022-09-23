@@ -15,6 +15,11 @@ function App() {
     <div className="App">
       <input type="text" value={inputValue} onChange={(event) => {
         setInputState(event.target.value);
+      }} 
+      onKeyUp={(e) => {
+        if (e.keyCode == 13) {
+          addItem();
+        }
       }}/>
       <button onClick={addItem}>add</button>
 
